@@ -1,13 +1,5 @@
 <?php
 
-echo "<pre>";
-print_r($_POST);
-echo "</pre>";
-echo "<hr>";
+require_once ('../../app_help_desk/valida_login.php');
 
-echo "E-mail: ";
-echo $_POST ['email'];
-echo "<br/>";
-echo $_POST['senha'];
 ?>
-
